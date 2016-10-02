@@ -1,0 +1,25 @@
+package miw.iwvg.classes;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class C51Test {
+	C51 c;
+	
+	@Before
+	public void before() {
+		c = new C51();
+	}
+	
+	@Test
+	public void testM1() {
+		assertEquals("m1", c.m1());
+	}
+	
+	@Test
+	public void testM2() {
+		assertEquals("m2",c.m2());
+	}
+}
