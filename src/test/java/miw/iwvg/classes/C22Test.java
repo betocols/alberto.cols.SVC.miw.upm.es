@@ -14,7 +14,7 @@ public class C22Test {
 	}
 	
 	@Test
-	public void mA () {
+	public void testMA () {
 		assertEquals("mA", c.mA());
 	}
 }
